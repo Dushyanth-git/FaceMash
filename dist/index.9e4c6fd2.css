@@ -1,0 +1,34 @@
+.header {
+  color: #fff;
+  background-color: #9e2f2f;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px;
+  display: flex;
+}
+
+.nav-left {
+  text-align: left;
+  flex: 1;
+}
+
+.logo {
+  text-align: center;
+  flex: 2;
+}
+
+.nav-right {
+  text-align: right;
+  flex: 1;
+}
+
+.header a {
+  color: #fff;
+  margin: 0 10px;
+  text-decoration: none;
+}
+
+.header a:hover {
+  text-decoration: underline;
+}
+/*# sourceMappingURL=index.9e4c6fd2.css.map */

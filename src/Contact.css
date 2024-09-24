@@ -1,0 +1,26 @@
+.contact {
+    text-align: center; /* Center-align text */
+    margin: 20px; /* Add some margin around the component */
+}
+
+.contact h2 {
+    color: #333; /* Dark gray color for the text */
+    font-size: 24px; /* Font size for the heading */
+}
+
+.contact a {
+    color: rgb(244, 66, 66); /* Link color */
+    text-decoration: none; /* Remove underline from the link */
+    font-weight: bold; /* Bold text for emphasis */
+}
+
+.contact a:hover {
+    text-decoration: underline; /* Underline on hover for better interactivity */
+}
+
+.profile-pic {
+    margin-top: 20px; /* Add space above the image */
+    width: 150px; /* Set width for the image */
+    height: auto; /* Maintain aspect ratio */
+    border-radius: 50px; /* Optional: round the corners */
+}

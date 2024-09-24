@@ -1,0 +1,132 @@
+.upload-page {
+  text-align: center;
+  max-width: 600px;
+  margin: auto;
+  padding: 20px;
+}
+
+.upload-page h2 {
+  margin-bottom: 20px;
+}
+
+.upload-page form {
+  flex-direction: column;
+  gap: 15px;
+  display: flex;
+}
+
+.upload-page input[type="text"], .upload-page input[type="file"] {
+  padding: 10px;
+  font-size: 16px;
+}
+
+.upload-page img {
+  border: 1px solid #ccc;
+  margin-top: 15px;
+}
+
+.upload-page button {
+  color: #fff;
+  cursor: pointer;
+  background-color: #9e2f2f;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+}
+
+.upload-page button:hover {
+  background-color: #7a1e1e;
+}
+
+.home-container {
+  background-color: #f4f4f9;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  display: flex;
+}
+
+.leaderboard-title {
+  color: #2b2d42;
+  margin-bottom: 20px;
+  font-size: 2.5rem;
+}
+
+.leaderboard-list {
+  width: 100%;
+  max-width: 800px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.leaderboard-item {
+  background-color: #fff;
+  border-radius: 10px;
+  align-items: center;
+  margin-bottom: 10px;
+  padding: 15px;
+  display: flex;
+  box-shadow: 0 4px 6px #0000001a;
+}
+
+.leaderboard-image {
+  object-fit: cover;
+  border: 2px solid #2b2d42;
+  border-radius: 50%;
+  width: 60px;
+  height: 60px;
+  margin-right: 20px;
+}
+
+.leaderboard-text {
+  color: #333;
+  font-size: 1.2rem;
+}
+
+.leaderboard-item:hover {
+  background-color: #e5e5e5;
+}
+
+.about h2 {
+  color: #000;
+  font-size: 30px;
+  font-style: normal;
+}
+
+.mark {
+  border-radius: 50px;
+  width: 300px;
+  height: 270px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
+.contact {
+  text-align: center;
+  margin: 20px;
+}
+
+.contact h2 {
+  color: #333;
+  font-size: 24px;
+}
+
+.contact a {
+  color: #f44242;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.contact a:hover {
+  text-decoration: underline;
+}
+
+.profile-pic {
+  border-radius: 50px;
+  width: 150px;
+  height: auto;
+  margin-top: 20px;
+}
+/*# sourceMappingURL=index.c41b5a0e.css.map */

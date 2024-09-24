@@ -1,0 +1,56 @@
+/* General container for the Home page */
+.home-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  background-color: #f4f4f9;
+}
+
+/* Title styling */
+.leaderboard-title {
+  font-size: 2.5rem;
+  color: #2b2d42;
+  margin-bottom: 20px;
+}
+
+/* Leaderboard list */
+.leaderboard-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  width: 100%;
+  max-width: 800px;
+}
+
+/* Individual list items */
+.leaderboard-item {
+  display: flex;
+  align-items: center;
+  background-color: #fff;
+  padding: 15px;
+  margin-bottom: 10px;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* User image */
+.leaderboard-image {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  margin-right: 20px;
+  object-fit: cover;
+  border: 2px solid #2b2d42;
+}
+
+/* Text for user name and rating */
+.leaderboard-text {
+  font-size: 1.2rem;
+  color: #333;
+}
+
+/* Hover effect for leaderboard items */
+.leaderboard-item:hover {
+  background-color: #e5e5e5;
+}
