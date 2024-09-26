@@ -1,56 +1,88 @@
-/* General container for the Home page */
+/* Home.css */
 .home-container {
   display: flex;
   flex-direction: column;
   align-items: center;
   padding: 20px;
-  background-color: #f4f4f9;
+  background-color: #f8f9fa; /* Light background for better contrast */
+  min-height: 100vh; /* Ensure it fills the viewport */
 }
 
-/* Title styling */
-.leaderboard-title {
-  font-size: 2.5rem;
-  color: #2b2d42;
+.leaderboard-title, .voting-title {
   margin-bottom: 20px;
+  font-size: 24px;
+  font-weight: bold;
+  color: #343a40; /* Dark text color for better readability */
 }
 
-/* Leaderboard list */
 .leaderboard-list {
   list-style: none;
   padding: 0;
-  margin: 0;
-  width: 100%;
-  max-width: 800px;
+  width: 80%;
+  max-width: 600px; /* Limit the width for better layout */
 }
 
-/* Individual list items */
 .leaderboard-item {
   display: flex;
   align-items: center;
-  background-color: #fff;
-  padding: 15px;
   margin-bottom: 10px;
-  border-radius: 10px;
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  padding: 10px;
+  border-radius: 8px;
+  background-color: #ffffff; /* White background for items */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+  transition: background-color 0.3s ease, transform 0.3s ease;
 }
 
-/* User image */
-.leaderboard-image {
-  width: 60px;
-  height: 60px;
-  border-radius: 50%;
-  margin-right: 20px;
-  object-fit: cover;
-  border: 2px solid #2b2d42;
-}
-
-/* Text for user name and rating */
-.leaderboard-text {
-  font-size: 1.2rem;
-  color: #333;
-}
-
-/* Hover effect for leaderboard items */
 .leaderboard-item:hover {
-  background-color: #e5e5e5;
+  background-color: #e9ecef; /* Slightly darker on hover */
+  transform: translateY(-3px);
+}
+
+.leaderboard-image {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  margin-right: 15px;
+  border: 2px solid #007bff; /* Blue border for images */
+}
+
+.leaderboard-text {
+  font-size: 18px;
+  color: #495057; /* Medium dark color for text */
+}
+
+.voting-container {
+  display: flex;
+  justify-content: space-around;
+  width: 80%;
+  margin-top: 20px;
+}
+
+.voting-item {
+  cursor: pointer;
+  text-align: center;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  background-color: #ffffff; /* White background for voting items */
+  border-radius: 8px; /* Rounded corners */
+  padding: 10px; /* Padding for better touch target */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+}
+
+.voting-item:hover {
+  transform: scale(1.05);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* Stronger shadow on hover */
+}
+
+.voting-image {
+  width: 150px;
+  height: 150px;
+  border-radius: 10px;
+  object-fit: cover; /* Ensure images maintain aspect ratio */
+  border: 2px solid #007bff; /* Blue border for voting images */
+}
+
+.voting-text {
+  font-size: 18px;
+  margin-top: 10px;
+  color: #343a40; /* Dark text color for better readability */
 }

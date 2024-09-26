@@ -39,53 +39,91 @@
 }
 
 .home-container {
-  background-color: #f4f4f9;
+  background-color: #f8f9fa;
   flex-direction: column;
   align-items: center;
+  min-height: 100vh;
   padding: 20px;
   display: flex;
 }
 
-.leaderboard-title {
-  color: #2b2d42;
+.leaderboard-title, .voting-title {
+  color: #343a40;
   margin-bottom: 20px;
-  font-size: 2.5rem;
+  font-size: 24px;
+  font-weight: bold;
 }
 
 .leaderboard-list {
-  width: 100%;
-  max-width: 800px;
-  margin: 0;
+  width: 80%;
+  max-width: 600px;
   padding: 0;
   list-style: none;
 }
 
 .leaderboard-item {
   background-color: #fff;
-  border-radius: 10px;
+  border-radius: 8px;
   align-items: center;
   margin-bottom: 10px;
-  padding: 15px;
+  padding: 10px;
+  transition: background-color .3s, transform .3s;
   display: flex;
-  box-shadow: 0 4px 6px #0000001a;
-}
-
-.leaderboard-image {
-  object-fit: cover;
-  border: 2px solid #2b2d42;
-  border-radius: 50%;
-  width: 60px;
-  height: 60px;
-  margin-right: 20px;
-}
-
-.leaderboard-text {
-  color: #333;
-  font-size: 1.2rem;
+  box-shadow: 0 2px 5px #0000001a;
 }
 
 .leaderboard-item:hover {
-  background-color: #e5e5e5;
+  background-color: #e9ecef;
+  transform: translateY(-3px);
+}
+
+.leaderboard-image {
+  border: 2px solid #007bff;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  margin-right: 15px;
+}
+
+.leaderboard-text {
+  color: #495057;
+  font-size: 18px;
+}
+
+.voting-container {
+  justify-content: space-around;
+  width: 80%;
+  margin-top: 20px;
+  display: flex;
+}
+
+.voting-item {
+  cursor: pointer;
+  text-align: center;
+  background-color: #fff;
+  border-radius: 8px;
+  padding: 10px;
+  transition: transform .3s, box-shadow .3s;
+  box-shadow: 0 2px 5px #0000001a;
+}
+
+.voting-item:hover {
+  transform: scale(1.05);
+  box-shadow: 0 4px 10px #0003;
+}
+
+.voting-image {
+  object-fit: cover;
+  border: 2px solid #007bff;
+  border-radius: 10px;
+  width: 150px;
+  height: 150px;
+}
+
+.voting-text {
+  color: #343a40;
+  margin-top: 10px;
+  font-size: 18px;
 }
 
 .about h2 {
