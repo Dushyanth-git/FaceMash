@@ -75,7 +75,7 @@ const Upload = () => {
             <img src={previewUrl} alt="Preview" width="200" />
           </div>
         )}
-        <button type="submit">Upload</button>
+        <button type="submit">Upload-do not click morethan once🤧</button>
       </form>
       {message && <p>{message}</p>}
     </div>

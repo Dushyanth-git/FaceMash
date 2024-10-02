@@ -34862,7 +34862,7 @@ const Upload = ()=>{
                     }, undefined),
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("button", {
                         type: "submit",
-                        children: "Upload"
+                        children: "Upload-do not click morethan once\uD83E\uDD27"
                     }, void 0, false, {
                         fileName: "src/Upload.js",
                         lineNumber: 78,
